@@ -33,6 +33,6 @@ Finding this info requires us to be able to concatenate the relation between the
 <img src="image/q4-reveal.png" alt="Shared Directory" width="250" /> <br>
 
 ## 7. Knowing the name of the malware family is essential for correlating the attack with known threats and developing appropriate defenses. What is the name of the malware family?
-Finding this info requires us to once again grab something from the CLI args. By grabbing the IP it calls, 45.9.74.32, and submitting it to VirusTotal, we can find many related results, one of which is a .virus file. By exploring that file, we can find family tags for strela and stealer, which points us directly to **strelastealer**, a credential stealer that specifically targets user emails.
+Finding this info requires us to once again grab something from the CLI args. By grabbing the IP it calls, 45.9.74.32, and submitting it to VirusTotal, we can find many related results, one of which is a .virus file. By exploring that file, we can find family tags for strela and stealer, which points us directly to **strelastealer**, a credential stealer that specifically targets user emails.<br>
 <img src="image/q7-reveal-1.png" alt="Shared Directory" width="250" /> <br>
 <img src="image/q7-reveal-2.png" alt="Shared Directory" width="250" /> <br>
